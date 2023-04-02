@@ -1,0 +1,5 @@
+rootProject.name = 'rewards'
+include 'engine'
+include 'core'
+include 'repositories'
+
