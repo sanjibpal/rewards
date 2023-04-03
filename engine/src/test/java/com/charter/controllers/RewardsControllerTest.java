@@ -1,4 +1,4 @@
-package com.charter;
+package com.charter.controllers;
 
 import com.charter.dto.TransactionDto;
 import com.charter.entities.Point;
@@ -13,11 +13,11 @@ import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Map;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
-import static org.assertj.core.api.Assertions.assertThat;
 
 public class RewardsControllerTest {
     @Mock

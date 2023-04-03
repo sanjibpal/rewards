@@ -1,9 +1,10 @@
-package com.charter;
+package com.charter.controllers;
 
 import com.charter.dto.TransactionDto;
 import com.charter.entities.Point;
 import com.charter.entities.Retailer;
 import com.charter.repositories.PointRepository;
+import com.charter.util.PointsCalcUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
